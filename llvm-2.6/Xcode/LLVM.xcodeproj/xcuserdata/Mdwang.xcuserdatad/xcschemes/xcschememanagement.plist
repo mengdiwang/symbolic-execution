@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LLVM TableGen.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>LLVM full llc release.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>LLVM full llc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>LLVM lib release.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>LLVM lib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>LLVM llc release.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>LLVM llc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>LLVM.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CF0329B608D1BE110030FD33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF0329BB08D1BE5D0030FD33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF0329BC08D1BE8E0030FD33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF490E830907CDAB0072DB1C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFDF86BD0ADE819D00D40A3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFDF86C60ADE81D000D40A3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFDF86D00ADE820000D40A3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D28A88AD04BDD90700651E21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

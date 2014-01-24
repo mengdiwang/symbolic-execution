@@ -29,22 +29,22 @@
 #define HAVE_ALLOCA_H 1
 
 /* Define to 1 if you have the `argz_append' function. */
-#define HAVE_ARGZ_APPEND 1
+/* #undef HAVE_ARGZ_APPEND */
 
 /* Define to 1 if you have the `argz_create_sep' function. */
-#define HAVE_ARGZ_CREATE_SEP 1
+/* #undef HAVE_ARGZ_CREATE_SEP */
 
 /* Define to 1 if you have the <argz.h> header file. */
-#define HAVE_ARGZ_H 1
+/* #undef HAVE_ARGZ_H */
 
 /* Define to 1 if you have the `argz_insert' function. */
-#define HAVE_ARGZ_INSERT 1
+/* #undef HAVE_ARGZ_INSERT */
 
 /* Define to 1 if you have the `argz_next' function. */
-#define HAVE_ARGZ_NEXT 1
+/* #undef HAVE_ARGZ_NEXT */
 
 /* Define to 1 if you have the `argz_stringify' function. */
-#define HAVE_ARGZ_STRINGIFY 1
+/* #undef HAVE_ARGZ_STRINGIFY */
 
 /* Define to 1 if you have the <assert.h> header file. */
 #define HAVE_ASSERT_H 1
@@ -105,7 +105,7 @@
 #define HAVE_ERRNO_H 1
 
 /* Define to 1 if the system has the type `error_t'. */
-#define HAVE_ERROR_T 1
+/* #undef HAVE_ERROR_T */
 
 /* Define to 1 if you have the <execinfo.h> header file. */
 #define HAVE_EXECINFO_H 1
@@ -117,10 +117,10 @@
 #define HAVE_FDP 1
 
 /* Define if libffi is available on this platform. */
-/* #undef HAVE_FFI_CALL */
+#define HAVE_FFI_CALL 1
 
 /* Define to 1 if you have the <ffi/ffi.h> header file. */
-/* #undef HAVE_FFI_FFI_H */
+#define HAVE_FFI_FFI_H 1
 
 /* Define to 1 if you have the <ffi.h> header file. */
 /* #undef HAVE_FFI_H */
@@ -204,35 +204,35 @@
 #define HAVE_LIMITS_H 1
 
 /* Define if you can use -Wl,-export-dynamic. */
-#define HAVE_LINK_EXPORT_DYNAMIC 1
+/* #undef HAVE_LINK_EXPORT_DYNAMIC */
 
 /* Define to 1 if you have the <link.h> header file. */
-#define HAVE_LINK_H 1
+/* #undef HAVE_LINK_H */
 
 /* Define if you can use -Wl,-R. to pass -R. to the linker, in order to add
    the current directory to the dynamic linker search path. */
-#define HAVE_LINK_R 1
+/* #undef HAVE_LINK_R */
 
 /* Define to 1 if you have the `longjmp' function. */
 #define HAVE_LONGJMP 1
 
 /* Define to 1 if you have the <mach/mach.h> header file. */
-/* #undef HAVE_MACH_MACH_H */
+#define HAVE_MACH_MACH_H 1
 
 /* Define to 1 if you have the <mach-o/dyld.h> header file. */
-/* #undef HAVE_MACH_O_DYLD_H */
+#define HAVE_MACH_O_DYLD_H 1
 
 /* Define if mallinfo() is available on this platform. */
-#define HAVE_MALLINFO 1
+/* #undef HAVE_MALLINFO */
 
 /* Define to 1 if you have the <malloc.h> header file. */
-#define HAVE_MALLOC_H 1
+/* #undef HAVE_MALLOC_H */
 
 /* Define to 1 if you have the <malloc/malloc.h> header file. */
-/* #undef HAVE_MALLOC_MALLOC_H */
+#define HAVE_MALLOC_MALLOC_H 1
 
 /* Define to 1 if you have the `malloc_zone_statistics' function. */
-/* #undef HAVE_MALLOC_ZONE_STATISTICS */
+#define HAVE_MALLOC_ZONE_STATISTICS 1
 
 /* Define to 1 if you have the `memcpy' function. */
 #define HAVE_MEMCPY 1
@@ -257,7 +257,7 @@
 
 /* Define if mmap() uses MAP_ANONYMOUS to map anonymous pages, or undefine if
    it uses MAP_ANON */
-#define HAVE_MMAP_ANONYMOUS 1
+/* #undef HAVE_MMAP_ANONYMOUS */
 
 /* Define if mmap() can map files into memory */
 #define HAVE_MMAP_FILE 
@@ -341,7 +341,7 @@
 #define HAVE_SIGNAL_H 1
 
 /* Define to 1 if you have the `sigsetjmp' function. */
-/* #undef HAVE_SIGSETJMP */
+#define HAVE_SIGSETJMP 1
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
@@ -460,37 +460,37 @@
 #define HAVE___DSO_HANDLE 1
 
 /* Installation directory for binary executables */
-#define LLVM_BINDIR "/opt/llvm-dbg/bin"
+#define LLVM_BINDIR "/usr/local/bin"
 
 /* Define to 1 for ilist sentinel compaction */
 #define LLVM_COMPACT_SENTINELS 0
 
 /* Time at which LLVM was configured */
-#define LLVM_CONFIGTIME "Tue Dec  1 17:22:48 GMT 2009"
+#define LLVM_CONFIGTIME "Thu Jan 16 16:44:50 CST 2014"
 
 /* Installation directory for data files */
-#define LLVM_DATADIR "/opt/llvm-dbg/share/llvm"
+#define LLVM_DATADIR "/usr/local/share/llvm"
 
 /* Installation directory for documentation */
-#define LLVM_DOCSDIR "/opt/llvm-dbg/docs/llvm"
+#define LLVM_DOCSDIR "/usr/local/docs/llvm"
 
 /* Installation directory for config files */
-#define LLVM_ETCDIR "/opt/llvm-dbg/etc/llvm"
+#define LLVM_ETCDIR "/usr/local/etc/llvm"
 
 /* Host triple we were built on */
-#define LLVM_HOSTTRIPLE "i686-pc-linux-gnu"
+#define LLVM_HOSTTRIPLE "i686-apple-darwin13.0.0"
 
 /* Installation directory for include files */
-#define LLVM_INCLUDEDIR "/opt/llvm-dbg/include"
+#define LLVM_INCLUDEDIR "/usr/local/include"
 
 /* Installation directory for .info files */
-#define LLVM_INFODIR "/opt/llvm-dbg/info"
+#define LLVM_INFODIR "/usr/local/info"
 
 /* Installation directory for libraries */
-#define LLVM_LIBDIR "/opt/llvm-dbg/lib"
+#define LLVM_LIBDIR "/usr/local/lib"
 
 /* Installation directory for man pages */
-#define LLVM_MANDIR "/opt/llvm-dbg/man"
+#define LLVM_MANDIR "/usr/local/man"
 
 /* Build multithreading support into LLVM */
 #define LLVM_MULTITHREADED 1
@@ -505,16 +505,16 @@
 /* #undef LLVM_ON_WIN32 */
 
 /* Define to path to circo program if found or 'echo circo' otherwise */
-#define LLVM_PATH_CIRCO "/usr/bin/circo"
+#define LLVM_PATH_CIRCO "/usr/local/bin/circo"
 
 /* Define to path to dot program if found or 'echo dot' otherwise */
-#define LLVM_PATH_DOT "/usr/bin/dot"
+#define LLVM_PATH_DOT "/usr/local/bin/dot"
 
 /* Define to path to dotty program if found or 'echo dotty' otherwise */
-#define LLVM_PATH_DOTTY "/usr/bin/dotty"
+#define LLVM_PATH_DOTTY "/usr/local/bin/dotty"
 
 /* Define to path to fdp program if found or 'echo fdp' otherwise */
-#define LLVM_PATH_FDP "/usr/bin/fdp"
+#define LLVM_PATH_FDP "/usr/local/bin/fdp"
 
 /* Define to path to Graphviz program if found or 'echo Graphviz' otherwise */
 /* #undef LLVM_PATH_GRAPHVIZ */
@@ -523,13 +523,13 @@
 /* #undef LLVM_PATH_GV */
 
 /* Define to path to neato program if found or 'echo neato' otherwise */
-#define LLVM_PATH_NEATO "/usr/bin/neato"
+#define LLVM_PATH_NEATO "/usr/local/bin/neato"
 
 /* Define to path to twopi program if found or 'echo twopi' otherwise */
-#define LLVM_PATH_TWOPI "/usr/bin/twopi"
+#define LLVM_PATH_TWOPI "/usr/local/bin/twopi"
 
 /* Installation prefix directory */
-#define LLVM_PREFIX "/opt/llvm-dbg"
+#define LLVM_PREFIX "/usr/local"
 
 /* Define if the OS needs help to load dependent libraries for dlopen(). */
 /* #undef LTDL_DLOPEN_DEPLIBS */
@@ -540,13 +540,13 @@
 
 /* Define to the name of the environment variable that determines the dynamic
    library search path. */
-#define LTDL_SHLIBPATH_VAR "LD_LIBRARY_PATH"
+#define LTDL_SHLIBPATH_VAR "DYLD_LIBRARY_PATH"
 
 /* Define to the extension used for shared libraries, say, ".so". */
-#define LTDL_SHLIB_EXT ".so"
+#define LTDL_SHLIB_EXT ".dylib"
 
 /* Define to the system default library search path. */
-#define LTDL_SYSSEARCHPATH "/lib:/usr/lib:/lib/i486-linux-gnu:/usr/lib/i486-linux-gnu:/usr/lib/alsa-lib:/usr/local/lib"
+#define LTDL_SYSSEARCHPATH "/usr/local/lib:/lib:/usr/lib"
 
 /* Define if /dev/zero should be used when mapping RWX memory, or undefine if
    its not necessary */
@@ -603,7 +603,7 @@
 /* #undef const */
 
 /* Define to a type to use for `error_t' if it is not otherwise available. */
-/* #undef error_t */
+#define error_t int
 
 /* Define to `int' if <sys/types.h> does not define. */
 /* #undef pid_t */
