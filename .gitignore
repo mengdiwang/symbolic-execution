@@ -1,3 +1,4 @@
 *.d
 *.o
 *.a
+llvm-2.6/Xcode/DerivedData/*
